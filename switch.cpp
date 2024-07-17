@@ -80,26 +80,26 @@ int main(){
             <<"\t3. Choose prime numbers."<<endl;
         int a,b,choice=getche();
         switch(choice){
-            case 48:
+            case '0':
                 exit(0);
-            case 49:
+            case '1':
                 cout<<"\nRange from: ";
                 cin>>a;
-                cout<<"To :";
+                cout<<"To: ";
                 cin>>b;
                 cout<<endl<<endl<<"Highest is: "<<even(a,b)<<endl<<endl;
                 break;
-            case 50:
+            case '2':
                 cout<<"\nRange from: ";
                 cin>>a;
-                cout<<"To :";
+                cout<<"To: ";
                 cin>>b;
                 cout<<endl<<endl<<"Highest is: "<<odd(a,b)<<endl<<endl;
                 break;
-            case 51:
+            case '3':
                 cout<<"\nRange from: ";
                 cin>>a;
-                cout<<"To :";
+                cout<<"To: ";
                 cin>>b;
                 cout<<endl<<endl<<"Highest is: "<<prime(a,b)<<endl<<endl;
                 break;
